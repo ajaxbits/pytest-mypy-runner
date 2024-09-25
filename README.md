@@ -6,7 +6,7 @@ After adding this library to your dev/test dependencies and installing, add the 
 
 `test_mypy.py`
 ```test_mypy.py
-from pytest_mypy_runner import test_mypy  # noqa
+from ﻿pytest_mypy_runner.mypy_test_runner import test_mypy  # noqa
 ```
 
 Pytest should then pick up the `test_mypy` test.
